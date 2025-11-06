@@ -1,0 +1,9 @@
+# Ignore the .env file (it contains secrets!)
+.env
+
+#Ignore Python cache files
+pycache/
+*.pyc
+
+# Ignore the local SQLite database file
+app.db
