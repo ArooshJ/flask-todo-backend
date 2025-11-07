@@ -12,7 +12,7 @@ pipeline {
         
         // 2. The name of the Environment to deploy to
         //    (This MUST match what you just created: 'Flask-todo-api-env')
-        ENV_NAME         = 'Flask-todo-api-env' 
+        ENV_NAME         = 'flask-todo-api-prod' 
         
         // 3. The S3 bucket you created for the build zips
         //    (This is your 'jenkins-build-artifacts-aj')
